@@ -1,3 +1,4 @@
-function removeElementFromBeginningOfArray(somearray) {
-  return(somearray.slice(1));
+function destructivelyRemoveElementFromEndOfArray(thingy) {
+  thingy.pop();
+  return(thingy);
 }
