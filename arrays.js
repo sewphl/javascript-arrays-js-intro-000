@@ -1,3 +1,3 @@
-function accessElementInArray(anarray,ind) {
-  return(anarray[ind]);
+function removeElementFromBeginningOfArray(somearray) {
+  return(array.slice(1));
 }
