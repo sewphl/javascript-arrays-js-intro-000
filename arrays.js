@@ -4,10 +4,10 @@ function addElementToBeginningOfArray(anar,anel) {
   return([anel,...anar]);
 }
 ///////////////
-function destructivelyAddElementToBeginningOfArray(anar,anel) {
-  var anar[0] = anel;
-  return(anar);
-}
+//function destructivelyAddElementToBeginningOfArray(anar,anel) {
+//  var anar[0] = anel;
+//  return(anar);
+//}
 //////////////////
 
 function accessElementInArray(anarray,ind) {
