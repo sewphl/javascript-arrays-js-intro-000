@@ -1,6 +1,4 @@
 
-
-function destructivelyAddElementToBeginningOfArray(anar,anel) {
-  anar[0] = anel;
-  return(anar);
+function accessElementInArray(anarray,ind) {
+  return(anarray[ind]);
 }
