@@ -11,7 +11,7 @@ function addElementToBeginningOfArray(anar,anel) {
 //////////////////
 function addElementToEndOfArray(anar,anel) {  return([anar,...anel]);}
 
-function destructivelyAddElementToBeginningOfArray(anar, anel) {
+function destructivelyAddElementToEndOfArray(anar, anel) {
   var anar[anar.length] = anel;
   return(anar);
 }
