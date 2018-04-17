@@ -5,6 +5,6 @@ function addElementToBeginningOfArray(anar,anel) {
 }
 
 function destructivelyAddElementToBeginningOfArray(anar,anel) {
-  var anar[0] = anel;
-  return(anar);
+  //var anar[0] = anel;
+  return(anar[0]);
 }
