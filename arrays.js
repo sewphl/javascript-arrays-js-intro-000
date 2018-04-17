@@ -10,8 +10,8 @@ function destructivelyAddElementToBeginningOfArray(anar,anel) {
 }
 
 var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
-function accessElementInArray(anarray) {
-  return(anarray[0]);
+function accessElementInArray(anarray,ind) {
+  return(anarray[ind]);
 }
 accessElementInArray(entrepreneurs);
 
