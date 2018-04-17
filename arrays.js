@@ -11,3 +11,13 @@ function destructivelyAddElementToBeginningOfArray() {
   var myArray3[0] = 5;
   return(myArray3);
 }
+
+var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
+function accessElementInArray(anarray) {
+  return(anarray[0]);
+}
+accessElementInArray(entrepreneurs);
+
+function destructivelyRemoveElementFromBeginningOfArray(anotherarray) {
+  return
+}
