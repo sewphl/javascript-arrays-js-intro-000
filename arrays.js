@@ -9,6 +9,13 @@ function addElementToBeginningOfArray(anar,anel) {
 //  return(anar);
 //}
 //////////////////
+function addElementToEndOfArray(anar,anel) {  return([anar,...anel]);}
+
+function destructivelyAddElementToBeginningOfArray(anar, anel) {
+  var anar[anar.length] = anel;
+  return(anar);
+}
+
 
 function accessElementInArray(anarray,ind) {
   return(anarray[ind]);
