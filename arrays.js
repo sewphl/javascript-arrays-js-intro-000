@@ -1,5 +1,5 @@
 var chocolateBars = ['snickers','hundred grand','kitkat','skittles'];
-//skittles are not chocolate.
+//skittles are not chocolate
 
 function addElementToBeginningOfArray(anar,anel) {
   return([anel,...anar]);
