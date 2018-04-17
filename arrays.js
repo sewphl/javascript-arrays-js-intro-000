@@ -19,8 +19,8 @@ function destructivelyAddElementToEndOfArray(anar, anel) {
 }
 
 
-function accessElementInArray(anarray,ind) {
-  return(anarray[ind]);
+function accessElementInArray(anarr,ind) {
+  return(anarr[ind]);
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(anotherarr) {
