@@ -1,4 +1,5 @@
 
-function accessElementInArray(anarray,ind) {
-  return(anarray[ind]);
+function destructivelyRemoveElementFromBeginningOfArray(anotherarray) {
+  anotherarray = anotherarray.shift()
+  return();
 }
