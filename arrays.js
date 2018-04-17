@@ -16,7 +16,8 @@ function accessElementInArray(anarray,ind) {
 accessElementInArray(entrepreneurs);
 
 function destructivelyRemoveElementFromBeginningOfArray(anotherarray) {
-  return(anotherarray.shift());
+  anotherarray = anotherarray.shift()
+  return();
 }
 
 function removeElementFromBeginningOfArray(somearray) {
