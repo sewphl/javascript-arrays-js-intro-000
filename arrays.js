@@ -1,15 +1,12 @@
 var chocolateBars = ['snickers','hundred grand','kitkat','skittles'];
 
-function addElementToBeginningOfArray() {
-  var myArray = [1,2,3];
-  var myArray2 = [4,...myArray];
-  return(myArray2);
+function addElementToBeginningOfArray(anar,anel) {
+  return([anel,...anar]);
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  var myArray3 = [1,2,3];
-  var myArray3[0] = 5;
-  return(myArray3);
+function destructivelyAddElementToBeginningOfArray(anar,anel) {
+  var anar[0] = anel;
+  return(anar);
 }
 
 var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
