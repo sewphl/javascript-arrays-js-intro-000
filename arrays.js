@@ -9,8 +9,8 @@ function addElementToBeginningOfArray(anar,anel) {
 //  return(anar);
 //}
 //////////////////
-function addElementToEndOfArray(anar,anel) {  
-  return([anar,...anel]);
+function addElementToEndOfArray(anar,anel) {
+  return([...anar,anel]);
 }
 
 //function destructivelyAddElementToEndOfArray(anar, anel) {
