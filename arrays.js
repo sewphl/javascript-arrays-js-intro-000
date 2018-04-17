@@ -1,3 +1,3 @@
 function removeElementFromBeginningOfArray(somearray) {
-  return(array.slice(1));
+  return(somearray.slice(1));
 }
